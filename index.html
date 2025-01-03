@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Digitalix</title>
+  <link rel="preload" href="fonts/AvenirLTRoman.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/AvenirLTBlack.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/AvenirLTMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RubikGlitchRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="#" class="logo header__logo">
+        Digital<span class="logo__orange">i</span><span class="logo__blue">x</span>
+      </a>
+
+      <button class="burger btn-reset" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+      <nav class="nav" title="nav-header" data-menu>
+        <ul class="nav__list">
+          <!-- <li class="nav__item"><a href="#" class="nav__link" data-menu-item data-scroll>
+            Портфолио
+          </a></li> -->
+          <li class="nav__item"><a href="#services" class="nav__link" data-menu-item data-scroll>
+            Услуги
+          </a></li>
+          <!-- <li class="nav__item"><a href="#team" class="nav__link" data-menu-item data-scroll>
+            Команда
+          </a></li> -->
+          <li class="nav__item"><a href="#feedback" class="nav__link" data-menu-item data-scroll>
+            Отзывы
+          </a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link" data-menu-item data-scroll>
+            Контакты
+          </a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link nav__link-bg" data-menu-item data-scroll>
+            Заявка
+          </a></li>
+        </ul>
+        <button class="btn-reset burger-close" aria-label="Закрыть меню" data-menu-close></button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="intro pattern" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <p class="intro__suptitle">
+                Цифровые услуги
+            </p>
+            <h1 class="intro__title logo">
+                Digital<span class="logo__orange">i</span><span class="logo__blue">x</span>
+            </h1>
+            <p class="intro__subtitle">
+                Сделаем ваш бизнес прибыльным
+            </p>
+
+            <a href="#contacts" class="intro__link">
+                <button class="intro__button btn-reset">
+                    Оставить заявку
+                </button>
+            </a>
+        </div>
+    </div>
+</section>
+      <section class="services offsets pattern" id="services">
+    <div class="container">
+        <h2 class="services__title title">
+            Услуги
+        </h2>
+        <div class="services__inner">
+
+            <div class="swiper services__slider">
+                <div class="swiper-wrapper services__wrapper">
+                    <div class="swiper-slide services__slide">
+                        <div class="services__item">
+                            <p class="services__name">Создание сайтов</p>
+                            <picture>
+                                <source srcset="/img/services/computer.webp" type="image/webp">
+                                <img loading="lazy" src="/img/services/computer.png" class="services__icon" width="108"
+                                    height="108" alt="Computer">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide services__slide">
+                        <div class="services__item">
+                            <p class="services__name">Озвучка</p>
+                            <picture>
+                                <source srcset="/img/services/microphone.webp" type="image/webp">
+                                <img loading="lazy" src="/img/services/microphone.png" class="services__icon" width="108"
+                                    height="108" alt="Computer">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide services__slide">
+                        <div class="services__item">
+                            <p class="services__name">Дизайн</p>
+                            <picture>
+                                <source srcset="/img/services/design.webp" type="image/webp">
+                                <img loading="lazy" src="/img/services/design.png" class="services__icon" width="108"
+                                    height="108" alt="Computer">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide services__slide">
+                        <div class="services__item">
+                            <p class="services__name">SMM</p>
+                            <picture>
+                                <source srcset="/img/services/smartphone.webp" type="image/webp">
+                                <img loading="lazy" src="/img/services/smartphone.png" class="services__icon" width="108"
+                                    height="108" alt="Computer">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide services__slide">
+                        <div class="services__item">
+                            <p class="services__name">Монтаж видео</p>
+                            <picture>
+                                <source srcset="/img/services/montage.webp" type="image/webp">
+                                <img loading="lazy" src="/img/services/montage.png" class="services__icon" width="108"
+                                    height="108" alt="Computer">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide services__slide">
+                        <div class="services__item">
+                            <p class="services__name">Маркетинг</p>
+                            <picture>
+                                <source srcset="/img/services/marketing.webp" type="image/webp">
+                                <img loading="lazy" src="/img/services/marketing.png" class="services__icon" width="108"
+                                    height="108" alt="Computer">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev services__arrow services__arrow-prev"></div>
+                <div class="swiper-button-next services__arrow services__arrow-next"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+      <section class="feedback offsets pattern" id="feedback">
+  <div class="feedback__external">
+    <div class="container">
+      <h2 class="feedback__title title">
+        Нам доверяют
+      </h2>
+
+      <div class="feedback__inner">
+        <div class="swiper feedback__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide feedback__slide">
+              <div class="feedback__item">
+                <picture>
+                  <source srcset="/img/feedback/quotes-up.webp" type="image/webp">
+                  <img loading="lazy" src="/img/feedback/quotes-up.png" class="feedback__quotes feedback__quotes-up"
+                    width="110" height="110" alt="Кавычки">
+                </picture>
+                <p class="feedback__text">
+                  Заказала сайт у Егора, ничего в этом не понимала, но он мне всё доступно объяснил и
+                  показал, как и
+                  что будет) работа была выполнена очень хорошо и быстро, всё так, как я и хотела, в
+                  общем, большое
+                  спасибо!
+                </p>
+                <picture>
+                  <source srcset="/img/feedback/quotes-down.webp" type="image/webp">
+                  <img loading="lazy" src="/img/feedback/quotes-down.png" class="feedback__quotes feedback__quotes-down"
+                    width="62" height="57" alt="Кавычки">
+                </picture>
+                <picture>
+                  <source srcset="/img/feedback/dots.webp" type="image/webp">
+                  <img loading="lazy" src="/img/feedback/dots.png" class="feedback__dots" width="104" height="16"
+                    alt="Троеточие">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide feedback__slide">
+              <div class="feedback__item">
+                <picture>
+                  <source srcset="/img/feedback/quotes-up.webp" type="image/webp">
+                  <img loading="lazy" src="/img/feedback/quotes-up.png" class="feedback__quotes feedback__quotes-up"
+                    width="110" height="110" alt="Кавычки">
+                </picture>
+                <p class="feedback__text">
+                  Да, всё хорошо. Спасибо вам. Работой очень доволен. Сайт получился красивый и
+                  функциональный. Слайдер работает отлично. Все разделы на месте, дизайн удобный. Все
+                  этапы были выполнены в срок. Если дальше будем расширяться, обязательно обратимся к
+                  вам!)
+                </p>
+                <picture>
+                  <source srcset="/img/feedback/quotes-down.webp" type="image/webp">
+                  <img loading="lazy" src="/img/feedback/quotes-down.png" class="feedback__quotes feedback__quotes-down"
+                    width="62" height="57" alt="Кавычки">
+                </picture>
+                <picture>
+                  <source srcset="/img/feedback/dots.webp" type="image/webp">
+                  <img loading="lazy" src="/img/feedback/dots.png" class="feedback__dots" width="104" height="16"
+                    alt="Троеточие">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev feedback__arrow feedback__arrow-prev"></div>
+          <div class="swiper-button-next feedback__arrow feedback__arrow-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="contact-form offsets pattern" id="contacts">
+  <div class="container">
+    <div class="contact-form__inner">
+      <h3 class="contact-form__title">
+        Оставьте заявку
+      </h3>
+      <p class="contact-form__subtitle">
+        И мы вам перезвоним
+      </p>
+      <form action="#" class="form contact-form__form">
+        <label class="form__label">
+          <input type="text" name="Имя" class="input-reset form__input input-name" placeholder="Имя">
+          <input type="tel" name="Номер телефона" class="input-reset form__input input-tel"
+            placeholder="Номер телефона">
+          <label class="form__subtitle" for="service">Выберите услугу</label>
+          <select class="input-reset form__input" placeholder="Услуга" name="Услуга" id="service">
+            <option value="Создание сайта">Создание сайта</option>
+            <option value="Дизайн">Дизайн</option>
+            <option value="Озвучка">Озвучка</option>
+            <option value="Монтаж">Монтаж</option>
+          </select>
+          <div class="form__inner">
+            <input type="checkbox" id="contact-form__checkbox" class="form__checkbox" name="checkbox" />
+            <label for="contact-form__checkbox" class="form__text">Я ознакомился с <a href="Privacy_Policy_Digitalix.docx"
+                download="Privacy Policy Digitalix" class="form__link">Политикой
+                конфиденциальности</a></label>
+          </div>
+        </label>
+        <button type="submit" class="btn-reset form__btn">Отправить</button>
+      </form>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="footer offsets pattern">
+  <div class="container">
+    <div class="footer__inner">
+      <h3 class="footer__title logo">
+        Digital<span class="logo__orange">i</span><span class="logo__blue">x</span>
+      </h3>
+
+      <div class="footer__socials">
+        <a href="https://wa.me/77787248822?text=Здравствуйте,%20пишу%20с%20сайта%20Digitalix." class="footer__link"
+          target="_blank">WhatsApp</a>
+        <a href="https://www.instagram.com/digital.i.x/" class="footer__link" target="_blank">Instagram</a>
+        <a href="https://t.me/DigitaliXAgency" class="footer__link" target="_blank">Telegram</a>
+      </div>
+
+      <div class="footer__docs">
+        <p class="footer__text">
+          Все права защищены © <span class="footer__year"></span>
+        </p>
+        <p class="footer__text"><a href="Privacy_Policy_Digitalix.docx" download="Privacy Policy Digitalix"
+            class="footer__political">Политика конфиденциальности</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+</body>
+
+</html>
